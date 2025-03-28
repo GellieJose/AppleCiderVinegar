@@ -149,6 +149,35 @@ footer p {
     font-size: 1em;
 }
 
+footer a {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer a img {
+    width: 30px;
+    height: auto;
+}
+
+footer a:hover img {
+    opacity: 0.8;
+}
+
+footer .footer-links {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer .footer-links a {
+    display: block;
+    margin: 5px 0; 
+    color: white; 
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline; 
+}
 
 @media (max-width: 768px) {
     header h1 {
@@ -168,3 +197,17 @@ footer p {
         font-size: 1.2em;
     }
 }
+
+.banner {
+    text-align: center;
+    margin: 20px auto;
+}
+.leaderboard img {
+    width: 728px;
+    height: 90px;
+}
+.square img {
+    width: 250px;
+    height: 250px;
+}
+
