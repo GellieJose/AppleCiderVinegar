@@ -198,16 +198,40 @@ footer .footer-links a:hover {
     }
 }
 
+/* Banner Styles */
 .banner {
     text-align: center;
     margin: 20px auto;
 }
+
 .leaderboard img {
     width: 728px;
     height: 90px;
 }
+
 .square img {
     width: 250px;
     height: 250px;
+}
+
+
+.leaderboard a, .square a {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    
+    .leaderboard img {
+        width: 100%; 
+        max-width: 728px;
+        height: auto;
+    }
+
+    
+    .square img {
+        width: 100%; 
+        max-width: 250px; 
+        height: auto; 
+    }
 }
 
