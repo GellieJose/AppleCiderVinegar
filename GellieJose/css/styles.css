@@ -198,7 +198,7 @@ footer .footer-links a:hover {
     }
 }
 
-/* Banner Styles */
+
 .banner {
     text-align: center;
     margin: 20px auto;
@@ -235,3 +235,96 @@ footer .footer-links a:hover {
     }
 }
 
+
+#whats-new {
+    padding: 20px;
+  }
+  
+  
+  #whats-new .section-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  
+  #whats-new .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+  }
+  
+  
+  #whats-new .image-row img {
+    width: 300px; 
+    height: auto;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  #picnic-spot {
+    padding: 40px 20px;
+    background-color: #f0f9f7;
+    border-top: 2px solid #cce0dd;
+  }
+  
+  .spot-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    color: #333;
+  }
+  
+  .citation {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .citation a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .citation a:hover {
+    text-decoration: underline;
+  }
+  
+  #acv-toner {
+    padding: 40px 20px;
+    background-color: #fff8f2;
+    border-top: 2px solid #f5cda7;
+  }
+  
+  #acv-toner .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #8a4b1c;
+    margin-bottom: 25px;
+  }
+  
+  .article-text {
+    max-width: 800px;
+    margin: 0 auto 15px auto;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  #acv-toner .citation {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  #acv-toner .citation a {
+    color: #a24d00;
+    text-decoration: none;
+  }
+  
+  #acv-toner .citation a:hover {
+    text-decoration: underline;
+  }
+  
